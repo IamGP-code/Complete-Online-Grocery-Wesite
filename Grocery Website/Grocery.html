@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daily Zone Supermarket</title>
+        <meta charset="utf-8" />
+<!-- <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" /> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.shop.js"></script>
+        <link rel="stylesheet" href="./css/grocery.css">
+    </head>
+<body>
+    <header>
+        <!-- <div class="parallax"> -->
+        <div class="page-title"> Daily Zone Supermarket
+        
+    <div class="filter-box">
+        <a href="#" class="btn-top active" data-filter="all">All</a>
+        <a href="#" class="btn-top active" data-filter="vegies">Vegetables</a>
+        <a href="#" class="btn-top active" data-filter="fruits">Fruits</a>
+        <!-- <a href="#" class="btn active" data-filter="mandc">Milk & Curd</a>
+        <a href="#" class="btn active" data-filter="oil">Oil</a> -->
+    
+        
+    </div>  
+     <!-- Search box -->
+     <div class="search-box">
+        <form1 action="" onsubmit="return false">
+            <input type="text" id="search" placeholder="Search Product">
+        </form1>
+    </div>
+
+        
+    </header>
+
+        <!-- -------------------------------------main starts-------------------------------------- -->
+        <!-- -----------------------------------------vegeatables---- -->
+<div id="main">
+            <div class="slide-container">
+                    <section class="container" id="store-products">
+                                    <div class="store-product vegies">
+                                        <div class="items">
+                                    <div class="images">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmVbvCnXAyavi5zDahid9ORFAwLb-XcdITfg&usqp=CAU" alt="carrot" class="item-image-size"/>
+                                    </div>
+                                    <div class="product-description" data-name="Carrot" data-price="10">
+                                    
+                                        <h2 class="product-name">Carrot</h2>
+                                        <p class="product-price"> 10/Kg</p>
+                                        <form class="add-to-cart" action="./cart.html" method="post">
+                                
+                                        <div>
+                                            <label for="qty">Quantity</label>
+                                            <input type="number"   min="1" max="5" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                        </form>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <!-- -----------------------------------2nd column---------------------- -->
+                            <div class="store-product fruits">
+                                <div class="items">
+                                    <div class="images">
+                                    <img src="./veg fruits pics/fruits/apple.jpg" alt="apple" class="item-image-size"/>
+                                    
+                                </div>
+                                <div class="product-description" data-name="Apple" data-price="60">
+                                    
+                                    <h2 class="product-name">Apple</h2>
+                                    <p class="product-price"> 60/Kg</p>
+                                    <form class="add-to-cart" action="./cart.html" method="post">
+                            
+                                    <div>
+                                        <label for="qty">Quantity</label>
+                                        <input type="number"  min="1" max="5" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                                </div>
+                                </div>
+
+                                <!-- -------------------------------------single container Vegetables----------------- -->
+                                <div class="store-product vegies">
+                                <div class="items">
+                                    <div class="images">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHUuerQ5w90u8UQEbvJbcRCxJkfLf9o421Q&usqp=CAU" alt="Onion" class="item-image-size"/>
+                                    </div>
+                                    <div class="product-description" data-name="Onion" data-price="30">
+                                    
+                                        <h2 class="product-name">Onion</h2>
+                                        <p class="product-price"> 30/Kg</p>
+                                        <form class="add-to-cart" action="./cart.html" method="post">
+                                
+                                        <div>
+                                            <label for="qty">Quantity</label>
+                                            <input type="number"  min="1" max="5" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                        </form>
+
+                                    </div>
+                                </div>
+                                </div>
+                            
+                        <!-- ------------------------------------------------------------single container vegetables--------------------- -->
+                        <div class="store-product vegies">
+                                    <div class="items">
+                                    <div class="images">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSntTd5bIbnz09fAAnC3NbtS5KzrUQ-1gkA&usqp=CAU" alt="Beetroot" class="item-image-size"/>
+                                    </div>
+                                    <div class="product-description" data-name="Beetroot" data-price="15">
+                                    
+                                        <h2 class="product-name">Beetroot</h2>
+                                        <p class="product-price"> 15/Kg</p>
+                                        <form class="add-to-cart" action="./cart.html" method="post">
+                                
+                                        <div>
+                                            <label for="qty">Quantity</label>
+                                            <input type="number"  min="1" max="5" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                        </form>
+
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- ----------------------------------------------------------------------------single container----- --->
+
+                        <div class="store-product vegies">
+
+                        <div class="items">
+                                    <div class="images">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXdnXvb2ghVhvxVVQZkxKTuFOG4mrqwcwTOg&usqp=CAU" alt="Peas" class="item-image-size"/>
+                                    </div>
+                                    <div class="product-description" data-name="Peas" data-price="15">
+                                    
+                                        <h2 class="product-name">Peas</h2>
+                                        <p class="product-price"> 15/Kg</p>
+                                        <form class="add-to-cart" action="./cart.html" method="post">
+                                
+                                        <div>
+                                            <label for="qty">Quantity</label>
+                                            <input type="number"  min="1" max="5" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                        </form>
+
+                                    </div>  
+                                    </div>
+                        </div> 
+
+
+                        <div class="store-product vegies">
+                                <div class="items">
+                                    <div class="images">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9UIT2TRsPFCnFnsSC93HqDNn6pr_kq-0ycw&usqp=CAU" alt="Tomatoes" class="item-image-size"/>
+                                    </div>
+                                    <div class="product-description" data-name="Tomatoes" data-price="10">
+                                    
+                                        <h2 class="product-name">Tomatoes</h2>
+                                        <p class="product-price"> 50/Kg</p>
+                                        <form class="add-to-cart" action="./cart.html" method="post">
+                                
+                                        <div>
+                                            <label for="qty">Quantity</label>
+                                            <input type="number"  min="1" max="5" class="qty" value="1" />
+                                        </div>
+                                        <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    <div class="store-product vegies">
+                        <div class="items">
+                            <div class="images">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4E-pVovs6EKWdmKpJBxSah3r1_UdPQiS9yw&usqp=CAU" alt="Potatoes" class="item-image-size"/>
+                            </div>
+                            <div class="product-description" data-name="Potatoes" data-price="55">
+                                <h2 class="product-name">Potatoes</h2>
+                                <p class="product-price"> 55/Kg</p>
+                                <form class="add-to-cart" action="./cart.html" method="post">
+                        
+                                <div>
+                                    <label for="qty">Quantity</label>
+                                    <input type="number"  min="1" max="5" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <div class="store-product vegies">
+                            <div class="items">
+                                <div class="images">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUd2z_p3gmM5Gs9svi6VpsB9zDQFR2MhbFikSWPRbs1DlN3gj7hvLLwsPv9K2H6B9ZPtI&usqp=CAU"
+                                    alt="broccoli"
+                                    class="item-image-size"/>
+                                </div>
+                                <div class="product-description" data-name="Broccoli" data-price="35">
+                                
+                                    <h2 class="product-name">Broccoli</h2>
+                                    <p class="product-price"> 35/Kg</p>
+                                    <form class="add-to-cart" action="./cart.html" method="post">
+                            
+                                    <div>
+                                        <label for="qty">Quantity</label>
+                                        <input type="number"  min="1" max="5" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+
+                                </div>
+                            </div>
+                            </div>
+
+
+                            <div class="store-product vegies">
+                            <div class="items">
+                                <div class="images">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kl02kO83u6HYGcsvKYSS3dbgNqtEkvzj0A&usqp=CAU" alt="Brinjal" class="item-image-size"/>
+                                </div>
+                                <div class="product-description" data-name="Brinjal" data-price="40">
+            
+                                    <h2 class="product-name">Brinjal</h2>
+                                    <p class="product-price"> 40/Kg</p>
+                                    <form class="add-to-cart" action="./cart.html" method="post">
+                            
+                                    <div>
+                                        <label for="qty">Quantity</label>
+                                        <input type="number"  min="1" max="5" class="qty" value="1" />
+                                    </div>
+                                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                    </form>
+                    
+                                </div>
+                            </div>
+                            </div>
+                        
+                    <!-------------------------------------------------------------------fruits------------------------------------------------------>
+
+                    <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.t4_KDKvgAVaNce2Vw6yPDAHaEo&amp;pid=Api&amp;P=0&amp;w=240&amp;h=151"
+                            alt="Banana" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Banana" data-price="30">
+            
+                            <h2 class="product-name">Banana</h2>
+                            <p class="product-price"> 30/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.pwPvjVPURSyJSiC7EuI43QHaGu&amp;pid=Api&amp;P=0&amp;w=172&amp;h=157" 
+                            alt="cherry" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Cherries" data-price="145">
+            
+                            <h2 class="product-name">Cherries</h2>
+                            <p class="product-price"> 145/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+            
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.qK9-dJ8YLheGMtYGv1x2oAHaFW&amp;pid=Api&amp;P=0&amp;w=258&amp;h=187" alt="Guava" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Guava" data-price="25">
+            
+                            <h2 class="product-name">Guava</h2>
+                            <p class="product-price"> 25/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+            
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="store-product fruits">
+                        <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.WLaeAtJ3t_Fo-cB1yBRKoAHaDt&amp;pid=Api&amp;P=0&amp;w=371&amp;h=187"
+                            alt="Lemon" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Lemon" data-price="20">
+            
+                            <h2 class="product-name">Lemon</h2>
+                            <p class="product-price"> 20/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP._fpL6Wo5uc-yHoUrkQEB8gHaFj&amp;pid=Api&amp;P=0&amp;w=217&amp;h=163" alt="Orange" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Orange" data-price="30">
+            
+                            <h2 class="product-name">Orange</h2>
+                            <p class="product-price"> 30/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+            
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="store-product fruits">
+                    <div class="items">
+                        <div class="images">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.7H8ve3_G5zJ9pAKeBfs5gAHaD3&amp;pid=Api&amp;P=0&amp;w=304&amp;h=159" alt="Strawberiess" class="item-image-size"/>
+                        </div>
+                        <div class="product-description" data-name="Strawberiess" data-price="200">
+            
+                            <h2 class="product-name">Strawberries</h2>
+                            <p class="product-price"> 200/Kg</p>
+                            <form class="add-to-cart" action="./cart.html" method="post">
+                    
+                            <div>
+                                <label for="qty">Quantity</label>
+                                <input type="number"  min="1" max="5" class="qty" value="1" />
+                            </div>
+                            <p><input type="submit" value="Add to cart" class="btn" /></p>
+                            </form>
+            
+                        </div>
+                    </div>
+                   </div>
+                  </div>
+</section>
+                    </div>
+
+                    <!-- <hr> -->
+                    <br>
+<div class="banner">
+    <h1>About </h1>
+    <div class="flex-container">
+
+        <div class="flex-item"><img style="height: 200px; width: 200px;overflow: hidden;align-items: center;" src="./About/bhoomika.PNG" /><p>MSBhoomika</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/M Guruprasad.jpg"/><p>MGuruprasad</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/CHAITHRA.jpeg" /><p>Chaithra</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/SHARANYA.jpeg" /><p>Sharanya</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/PRIYADARSHINI.jpeg" /><p>Priyadarshini</p></div>
+
+
+      </div></div>
+      
+<script src="./js/script.js"></script>
+</body>
+</html>

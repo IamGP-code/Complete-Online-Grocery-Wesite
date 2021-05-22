@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Grocery: Your Shopping Cart</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="./css/style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.shop.js"></script>
+</head>
+
+<body>
+
+<div id="main">
+
+	<div id="container">
+		<h1>Your Shopping Cart</h1>
+		<div class="content">
+		<form id="shopping-cart" action="./cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<form class="add-to-cart" action="./cart.html" method="post">
+					<input type="submit" min="1" max="5" name="update" id="update-cart" class="btn" value="Update Cart" />
+					</form>
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="./Grocery.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="./checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+
+</div>
+<div class="banner">
+    <h1>About </h1>
+    <div class="flex-container">
+
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/bhoomika.PNG" /><p>MSBhoomika</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/M Guruprasad.jpg"/><p>MGuruprasad</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/CHAITHRA.jpeg" /><p>Chaithra</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/SHARANYA.jpeg" /><p>Sharanya</p></div>
+        <div class="flex-item"><img style="height: 200px; max-width: 200px;" src="./About/PRIYADARSHINI.jpeg" /><p>Priyadarshini</p></div>
+
+
+      </div></div>
+<footer id="site-info">
+		Copyright &copy; Daily Zone Supermarket
+	</footer> 
+
+</body>
+</html>	
